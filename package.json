@@ -1,0 +1,14 @@
+{
+  "name": "ocp-exam",
+  "version": "1.0.0",
+  "description": "SOLID: Open/Closed Principle Exam",
+  "scripts": {
+    "start:antipattern": "npx tsx src/OCP/antipattern/index.ts",
+    "start:refactored": "npx tsx src/OCP/refactored/index.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.1",
+    "typescript": "^5.3.3",
+    "@types/node": "^20.11.0"
+  }
+}
